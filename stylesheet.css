@@ -1,0 +1,52 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #545454;
+}
+
+.logo {
+	text-align: right;
+	width: 210px;
+	margin-top: 5px;
+}
+
+.logo-title {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 36px;
+}
+
+.logo-subTitle {
+	font-size: 11px;
+	font-weight: 400;
+	color: #979797;
+	position: relative;
+	top: -8px
+}
+
+.header {
+	height: 75px;
+	background-color: black;
+}
+
+.main-content {
+	border: solid 1px #e9dfd0;
+	min-height: calc(100vh);
+}
+
+h1 {
+	font-size: 24px;
+	color: black;
+	text-transform: uppercase;
+}
+
+p {
+	line-height: 175%
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.u-marginTop {
+	margin-top: 40px
+}
