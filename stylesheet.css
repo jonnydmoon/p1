@@ -54,11 +54,16 @@ footer{
 	background-color: black;
 }
 
-
-
 h1 {
 	font-size: 24px;
 	color: black;
+	text-transform: uppercase;
+}
+
+h2{
+	margin-top:15px;
+	font-size: 18px;
+	color:#ce830e;
 	text-transform: uppercase;
 }
 
@@ -72,4 +77,18 @@ p {
 
 .u-marginTop {
 	margin-top: 40px
+}
+
+.project-block{
+	margin-bottom:20px;
+}
+
+.project-screenshot.fa{
+	float:left;
+	margin-right:10px;
+	font-size:102px;
+}
+
+.project-block p{
+	line-height:100%;
 }
