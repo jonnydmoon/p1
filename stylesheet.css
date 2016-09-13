@@ -1,6 +1,32 @@
+html, body {
+	height: 100%;
+	margin:0px;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #545454;
+}
+
+.main-content {
+	border: solid 1px #e9dfd0;
+	border-top:none;
+	border-bottom:none;
+	min-height: calc(100vh - 75px);
+	position:relative;
+	padding-bottom:50px;
+}
+
+footer{
+	position:absolute;
+	bottom:5px;
+	text-align:center;
+	left:0;
+	right:0;
+}
+
+.copyright{
+	font-size:11px;
 }
 
 .logo {
@@ -28,10 +54,7 @@ body {
 	background-color: black;
 }
 
-.main-content {
-	border: solid 1px #e9dfd0;
-	min-height: calc(100vh);
-}
+
 
 h1 {
 	font-size: 24px;
